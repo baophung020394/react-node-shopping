@@ -1,0 +1,28 @@
+{
+  "name": "cmsshopping",
+  "version": "1.0.0",
+  "description": "CMS Shopping Nodejs, Reactjs, Mysql",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "migrate": "knex migrate:latest"
+  },
+  "author": "Bao Phung",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "bookshelf": "^0.14.2",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "knex": "^0.16.2",
+    "mysql": "^2.16.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
